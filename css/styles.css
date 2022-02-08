@@ -12,6 +12,7 @@
 body {
   background-color: var(--primary-bg-color);
   font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
@@ -19,7 +20,6 @@ body {
 .link {
   text-decoration: none;
 }
-/* =====HEADER==== */
 .site-logo {
   color: var(--accent-button-color);
   font-family: var(--secondary-font-family);
@@ -29,7 +29,6 @@ body {
   letter-spacing: 0.03em;
 }
 .site-nav .nav-link {
-  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -53,8 +52,6 @@ body {
 .contacts-link:focus {
   color: var(--accent-button-color);
 }
-/* =====HEADER end==== */
-/* ===HERO=== */
 .hero-box {
   background-color: var(--bg-hero-footer-color);
 }
@@ -84,10 +81,7 @@ body {
   background-color: var(--accent-hero-button-color);
   cursor: pointer;
 }
-/* ===HERO End */
-/* ===ПРЕИМУЩЕСТВА=== */
 .features-title {
-  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -100,8 +94,6 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-/* ===ПРЕИМУЩЕСТВА END=== */
-/* ===Чем мы занимаемся=== */
 .our-works-title {
   font-weight: 700;
   font-size: 36px;
@@ -109,10 +101,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* ===Чем мы занимаемся END */
-/* ===TEAM=== */
 .team-box-title {
-  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -120,7 +109,6 @@ body {
   letter-spacing: 0.03em;
 }
 .team-member {
-  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -137,10 +125,8 @@ body {
 .team-item {
   background-color: var(--bg-button-color);
 }
-/* ===TEAM end=== */
-/* ===PORTFOLIO BUTTON=== */
 .portfolio-filter-button {
-  color: var(--primary-text-color);
+  color: inherit;
   background-color: var(--bg-button-color);
   font-family: inherit;
   font-weight: 500;
@@ -155,10 +141,7 @@ body {
   background-color: var(--accent-button-color);
   cursor: pointer;
 }
-/* ===PORTFOLIO BUTTON END=== */
-/* ===portfolio gallery title=== */
 .portfolio-gallery-title {
-  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -170,8 +153,6 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
-/* ===portfolio gallery title END */
-/* ===FOOTER=== */
 .footer-box {
   background-color: var(--bg-hero-footer-color);
 }
@@ -193,4 +174,3 @@ body {
 .address-link:focus {
   color: var(--accent-button-color);
 }
-/* FOOTER END=== */
