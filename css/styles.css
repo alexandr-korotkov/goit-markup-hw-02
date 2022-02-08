@@ -1,0 +1,196 @@
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Raleway", sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-bg-color: #ffffff;
+  --accent-button-color: #2196f3;
+  --accent-hero-button-color: #188ce8;
+  --bg-button-color: #f5f4fa;
+  --bg-hero-footer-color: #2f303a;
+}
+body {
+  background-color: var(--primary-bg-color);
+  font-family: var(--primary-font-family);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* =====HEADER==== */
+.site-logo {
+  color: var(--accent-button-color);
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.site-nav .nav-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-button-color);
+}
+.site-nav .current {
+  color: var(--accent-button-color);
+}
+.contacts-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-button-color);
+}
+/* =====HEADER end==== */
+/* ===HERO=== */
+.hero-box {
+  background-color: var(--bg-hero-footer-color);
+}
+.hero-title {
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-button-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-button:hover {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-hero-button-color);
+  cursor: pointer;
+}
+/* ===HERO End */
+/* ===ПРЕИМУЩЕСТВА=== */
+.features-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* ===ПРЕИМУЩЕСТВА END=== */
+/* ===Чем мы занимаемся=== */
+.our-works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ===Чем мы занимаемся END */
+/* ===TEAM=== */
+.team-box-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-member {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.member-description {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-item {
+  background-color: var(--bg-button-color);
+}
+/* ===TEAM end=== */
+/* ===PORTFOLIO BUTTON=== */
+.portfolio-filter-button {
+  color: var(--primary-text-color);
+  background-color: var(--bg-button-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-button-color);
+  cursor: pointer;
+}
+/* ===PORTFOLIO BUTTON END=== */
+/* ===portfolio gallery title=== */
+.portfolio-gallery-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-gallery-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+/* ===portfolio gallery title END */
+/* ===FOOTER=== */
+.footer-box {
+  background-color: var(--bg-hero-footer-color);
+}
+.footer-logo {
+  color: var(--accent-button-color);
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.address-link {
+  color: var(--primary-bg-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-button-color);
+}
+/* FOOTER END=== */
