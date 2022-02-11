@@ -33,6 +33,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -164,6 +165,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.address-contacts {
+  font-style: inherit;
+}
 .address-link {
   color: var(--primary-bg-color);
   font-size: 14px;
@@ -172,5 +176,15 @@ body {
 }
 .address-link:hover,
 .address-link:focus {
+  color: var(--accent-button-color);
+}
+.contacts-link-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts-link-footer:hover,
+.contacts-link-footer:focus {
   color: var(--accent-button-color);
 }
